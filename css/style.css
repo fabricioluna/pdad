@@ -1,0 +1,47 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Estilo SDS */
+.header-sds {
+    background-color: #003366; /* Azul escuro oficial */
+    color: white;
+    padding: 15px 30px;
+    border-bottom: 5px solid #cc0000; /* Detalhe vermelho PE */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.login-logo {
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.logo-img-small {
+    height: 60px;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Navegação */
+.nav-pills .nav-link {
+    color: #003366;
+    font-weight: 500;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #003366 !important;
+    color: white !important;
+}
